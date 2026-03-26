@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Ali Khan | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init("MwaaI2uM4RCtF71Yz");</script>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="logo">Portfolio<span>.</span></div>
+  <nav id="nav-menu">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-left animate-left">
+    <p class="greeting">Hello, It's Me</p>
+    <h1>Muhammad Ali <span class="name-accent">Khan</span></h1>
+    <h2 class="typing-line">
+      <span class="hi-text">Hi, </span>
+      <span id="typing-text"></span><span class="cursor">|</span>
+    </h2>
+    <p class="bio">As a Frontend Developer, I specialize in crafting responsive and user-friendly web applications using HTML, CSS, and JavaScript. I have built dynamic interfaces with React, focusing on performance, accessibility, and seamless user interactions.</p>
+    <div class="socials">
+      <a class="icon" href="https://www.facebook.com/alikhanali3321/" target="_blank" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a class="icon" href="https://www.instagram.com/aliikhan___24/" target="_blank" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a class="icon" href="https://www.linkedin.com/in/muhammad-ali-khan-6363503aa" target="_blank" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+    </div>
+    <a href="Front-End-Developer Resume (MAK).pdf" download class="btn">Download CV <span class="btn-arrow">→</span></a>
+  </div>
+
+  <div class="hero-right animate-right">
+    <div class="hex-wrapper">
+      <div class="hex-glow"></div>
+      <div class="hex-border"></div>
+      <div class="hex-img">
+        <img src="23.jpg" alt="Muhammad Ali Khan">
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <div class="scroll-dot"></div>
+  </a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about-section" id="about">
+  <div class="about-container">
+    <div class="about-img reveal-left">
+      <div class="img-frame">
+        <img src="23.jpg" alt="Muhammad Ali Khan">
+        <div class="img-accent"></div>
+      </div>
+      <div class="exp-badge">
+        <span class="exp-num">2</span>
+        <span class="exp-label">Months<br>Experience</span>
+      </div>
+    </div>
+    <div class="about-text reveal-right">
+      <span class="section-tag">Who I Am</span>
+      <h2>About <span>Me</span></h2>
+      <h3>Frontend Developer & CS Student</h3>
+      <p>
+        I'm a Computer Science undergraduate in my final semester at Karachi University's UBIT,
+        with a strong interest in frontend web development. I have 2 months of hands-on experience
+        working with React, building responsive and user-friendly web applications. I enjoy
+        creating modern UI experiences and continuously improving my development skills.
+      </p>
+      <div class="about-stats">
+        <div class="stat"><span>10+</span><p>Projects</p></div>
+        <div class="stat"><span>0</span><p>Years Exp</p></div>
+        <div class="stat"><span>4+</span><p>Technologies</p></div>
+      </div>
+      <a href="#contact" class="btn">Let's Talk <span class="btn-arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="skills-section" id="skills">
+  <div class="section-header reveal-up">
+    <span class="section-tag">What I Know</span>
+    <h2 class="section-title">My <span>Skills</span></h2>
+  </div>
+
+  <div class="skills-container">
+    <div class="technical-skills reveal-left">
+      <h3>Technical Skills</h3>
+      <div class="skill-bar" data-width="80">
+        <div class="skill-meta"><span>HTML</span><span>80%</span></div>
+        <div class="bar"><span class="bar-fill" style="width:0%"></span></div>
+      </div>
+      <div class="skill-bar" data-width="80">
+        <div class="skill-meta"><span>CSS</span><span>80%</span></div>
+        <div class="bar"><span class="bar-fill" style="width:0%"></span></div>
+      </div>
+      <div class="skill-bar" data-width="70">
+        <div class="skill-meta"><span>JavaScript</span><span>70%</span></div>
+        <div class="bar"><span class="bar-fill" style="width:0%"></span></div>
+      </div>
+      <div class="skill-bar" data-width="60">
+        <div class="skill-meta"><span>React.js</span><span>60%</span></div>
+        <div class="bar"><span class="bar-fill" style="width:0%"></span></div>
+      </div>
+    </div>
+
+    <div class="professional-skills reveal-right">
+      <h3>Professional Skills</h3>
+      <div class="circle-wrap">
+        <div class="circle-box" data-percent="70">
+          <svg viewBox="0 0 120 120">
+            <circle cx="60" cy="60" r="50" class="track"></circle>
+            <circle cx="60" cy="60" r="50" class="progress"></circle>
+          </svg>
+          <div class="circle-inner"><span class="number">0%</span></div>
+          <p>Communication</p>
+        </div>
+        <div class="circle-box" data-percent="80">
+          <svg viewBox="0 0 120 120">
+            <circle cx="60" cy="60" r="50" class="track"></circle>
+            <circle cx="60" cy="60" r="50" class="progress"></circle>
+          </svg>
+          <div class="circle-inner"><span class="number">0%</span></div>
+          <p>Team Work</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section class="portfolio-section" id="portfolio">
+  <div class="section-header reveal-up">
+    <span class="section-tag">What I've Built</span>
+    <h2 class="section-title">Latest <span>Projects</span></h2>
+  </div>
+
+  <!-- ONE single portfolio-container with ALL 4 cards inside -->
+  <div class="portfolio-container">
+
+    <!-- Card 1: Medi Verify -->
+    <div class="project-card reveal-left"
+      data-title="Medi Verify"
+      data-description="An app where you can verify your medicines — whether they are legit, fake, or expired. Instant results with a clean modern interface."
+      data-tech="HTML, CSS, JavaScript"
+      data-demo="https://mediverify-three.vercel.app/"
+      data-github="https://github.com/aliikhann24/Mediverify">
+      <div class="card-img-wrap">
+        <img src="projectbest.png" alt="Medi Verify">
+        <div class="card-overlay">
+          <div class="overlay-btns">
+            <a class="overlay-btn demo-btn" href="https://mediverify-three.vercel.app/" onclick="event.stopPropagation()" target="_blank">Live Demo</a>
+            <a class="overlay-btn github-btn" href="https://github.com/aliikhann24/Mediverify" onclick="event.stopPropagation()" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-info">
+        <h4>Medi Verify</h4>
+        <p>HTML · CSS · JavaScript</p>
+      </div>
+    </div>
+
+    <!-- Card 2: Skies Weather App -->
+    <div class="project-card reveal-up"
+      data-title="Skies - Weather App"
+      data-description="A modern and advanced Weather App with 5-day forecast, hourly data, geolocation, °C/°F toggle, and air comfort index. Built with vanilla JavaScript."
+      data-tech="HTML, CSS, JavaScript"
+      data-demo="https://weather-app-ashy-ten-36.vercel.app"
+      data-github="https://github.com/aliikhann24/Weather-App">
+      <div class="card-img-wrap">
+        <img src="project1.PNG" alt="Skies Weather App">
+        <div class="card-overlay">
+          <div class="overlay-btns">
+            <a class="overlay-btn demo-btn" href="https://weather-app-ashy-ten-36.vercel.app" onclick="event.stopPropagation()" target="_blank">Live Demo</a>
+            <a class="overlay-btn github-btn" href="https://github.com/aliikhann24/Weather-App" onclick="event.stopPropagation()" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-info">
+        <h4>Skies - Weather App</h4>
+        <p>HTML · CSS · JavaScript</p>
+      </div>
+    </div>
+
+    <!-- Card 3: Live User Search -->
+    <div class="project-card reveal-up"
+      data-title="FarmFusion"
+      data-description="A complete livestock management platform fro farmers."
+      data-tech="HTML, CSS, JavaScript, REST API"
+      data-demo="https://farm-fusion-frontend-zb1g.vercel.app"
+      data-github="https://github.com/aliikhann24/FarmFusion-Frontend">
+      <div class="card-img-wrap">
+        <img src="project2.PNG" alt="Live User Search">
+        <div class="card-overlay">
+          <div class="overlay-btns">
+            <a class="overlay-btn demo-btn" href="https://farm-fusion-frontend-zb1g.vercel.app" onclick="event.stopPropagation()" target="_blank">Live Demo</a>
+            <a class="overlay-btn github-btn" href="https://github.com/aliikhann24/FarmFusion-Frontend" onclick="event.stopPropagation()" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-info">
+        <h4>FarmFusion</h4>
+        <p>HTML · CSS · JavaScript · API</p>
+      </div>
+    </div>
+
+    <!-- Card 4: E-Commerce Store -->
+    <div class="project-card reveal-right"
+      data-title="CineScout"
+      data-description="A full product listing page with category filters, price sorting, and Add to Cart functionality. Products are fetched live from FakeStoreAPI."
+      data-tech="HTML, CSS, JavaScript, React"
+      data-demo="https://cine-scout-two.vercel.app/"
+      data-github="https://github.com/aliikhann24/CineScout">
+      <div class="card-img-wrap">
+        <img src="project3.PNG" alt="E-Commerce Store">
+        <div class="card-overlay">
+          <div class="overlay-btns">
+            <a class="overlay-btn demo-btn" href="https://cine-scout-two.vercel.app/" onclick="event.stopPropagation()" target="_blank">Live Demo</a>
+            <a class="overlay-btn github-btn" href="https://github.com/aliikhann24/CineScout" onclick="event.stopPropagation()" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-info">
+        <h4>CineScout</h4>
+        <p>HTML · CSS · JavaScript · React</p>
+      </div>
+    </div>
+
+  </div><!-- end .portfolio-container -->
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact-section" id="contact">
+  <div class="section-header reveal-up">
+    <span class="section-tag">Get In Touch</span>
+    <h2 class="section-title">Contact <span>Me!</span></h2>
+  </div>
+
+  <form id="contactForm" class="contact-form reveal-up">
+    <div class="input-row">
+      <div class="input-group">
+        <input type="text" id="fullName" placeholder=" " required>
+        <label for="fullName">Full Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" placeholder=" " required>
+        <label for="email">Email Address</label>
+      </div>
+    </div>
+    <div class="input-row">
+      <div class="input-group">
+        <input type="text" id="mobile" placeholder=" ">
+        <label for="mobile">Mobile Number</label>
+      </div>
+      <div class="input-group">
+        <input type="text" id="subject" placeholder=" ">
+        <label for="subject">Email Subject</label>
+      </div>
+    </div>
+    <div class="input-group">
+      <textarea id="message" rows="6" placeholder=" " required></textarea>
+      <label for="message">Your Message</label>
+    </div>
+    <button type="submit" class="btn contact-btn">Send Message <span class="btn-arrow">→</span></button>
+  </form>
+</section>
+
+<!-- ===== MODAL ===== -->
+<div id="projectModal" class="modal" role="dialog" aria-modal="true">
+  <div class="modal-content">
+    <button class="close-btn" aria-label="Close">&times;</button>
+    <h2 id="modalTitle"></h2>
+    <p id="modalDescription"></p>
+    <p class="modal-tech"><strong>Tech Stack:</strong> <span id="modalTech"></span></p>
+    <div class="modal-buttons">
+      <a id="liveDemo" target="_blank" class="btn">Live Demo</a>
+      <a id="githubLink" target="_blank" class="btn btn-outline">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <p>Copyright © 2026 by <span>Muhammad Ali Khan</span> | All Rights Reserved</p>
+  <a href="#home" class="top-btn" aria-label="Back to top">↑</a>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
