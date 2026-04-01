@@ -999,3 +999,25 @@ nav a.active::after { width: 100%; }
 
   .footer { flex-direction: column; gap: 16px; text-align: center; }
 }
+/* ── Extra styles for updated portfolio ── */
+
+/* Card tech tag below description */
+.card-info p {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.35rem;
+  font-style: italic;
+}
+.card-tech-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  color: var(--accent, #c084fc);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* Fix circle skill animation — force it via JS fallback */
+.circle-box .number {
+  font-size: 1rem;
+  font-weight: 700;
+}
