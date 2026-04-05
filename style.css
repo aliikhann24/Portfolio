@@ -1021,3 +1021,62 @@ nav a.active::after { width: 100%; }
   font-size: 1rem;
   font-weight: 700;
 }
+/* =============================
+   360px MOBILE FIX — Hero & About only
+============================= */
+@media (max-width: 400px) {
+
+  /* Hero — shrink hex image so content isn't cropped */
+  .hex-wrapper { width: 230px; height: 258px; }
+  .hex-border  { width: 215px; height: 242px; }
+  .hex-img     { width: 200px; height: 225px; }
+  .hex-glow    { width: 200px; height: 225px; }
+
+  .hero {
+    padding: 90px 4% 50px;
+    gap: 24px;
+  }
+
+  .hero-left h1 {
+    font-size: 34px;
+  }
+
+  .typing-line {
+    font-size: 18px;
+  }
+
+  .bio {
+    font-size: 13px;
+  }
+
+  /* About — tighten padding and badge position */
+  .about-section {
+    padding: 80px 4%;
+  }
+
+  .about-container {
+    gap: 36px;
+  }
+
+  .exp-badge {
+    right: 4px;
+    bottom: 4px;
+    padding: 10px 12px;
+  }
+
+  .exp-num {
+    font-size: 20px;
+  }
+
+  .about-stats {
+    gap: 12px;
+  }
+
+  .stat {
+    padding: 12px 14px;
+  }
+
+  .stat span {
+    font-size: 20px;
+  }
+}
