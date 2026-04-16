@@ -113,7 +113,7 @@ function initNavbar() {
 
     let current = sections[0].getAttribute('id'); // default to first section
 sections.forEach(sec => {
-  if (window.scrollY >= sec.offsetTop - 140) {
+  if (window.scrollY >= sec.offsetTop - 85) {
     current = sec.getAttribute('id');
   }
 });
