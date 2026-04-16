@@ -176,8 +176,9 @@ nav a {
   transition: color 0.3s;
   position: relative;
   letter-spacing: 0.3px;
-  z-index: 1001;        /* ← ADD THIS */
-  pointer-events: all;  /* ← ADD THIS */
+  z-index: 1001;        /* ← ADD */
+  pointer-events: all;  /* ← ADD */
+  cursor: pointer;      /* ← ADD */
 }
 
 nav a::after {
