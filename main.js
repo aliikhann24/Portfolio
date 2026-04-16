@@ -122,6 +122,13 @@ sections.forEach(sec => {
       link.classList.toggle('active', link.getAttribute('href') === '#' + current);
     });
   });
+  // ── Active class on click ──
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
 }
 
 // ── Hamburger menu ───────────────────────────────────────────────
