@@ -111,12 +111,12 @@ function initNavbar() {
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 50);
 
-    let current = '';
-    sections.forEach(sec => {
-      if (window.scrollY >= sec.offsetTop - 140) {
-        current = sec.getAttribute('id');
-      }
-    });
+    let current = sections[0].getAttribute('id'); // default to first section
+    // sections.forEach(sec => {
+  if (window.scrollY >= sec.offsetTop - 140) {
+    current = sec.getAttribute('id');
+  }
+});
 
     navLinks.forEach(link => {
       link.classList.toggle('active', link.getAttribute('href') === '#' + current);
