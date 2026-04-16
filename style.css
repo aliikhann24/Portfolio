@@ -978,7 +978,6 @@ nav a.active::after { width: 100%; }
 
   .hero-left { max-width: 100%; }
   .socials { justify-content: center; }
-  .bio { margin: 0 auto 28px; }
 
   /* Mobile hex sizes — proportionally scaled up from desktop change */
   .hex-wrapper { width: 300px; height: 335px; }
