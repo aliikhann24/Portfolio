@@ -111,9 +111,10 @@ function initNavbar() {
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 50);
 
-    let current = sections[0].getAttribute('id'); // default to first section
+   let current = sections[0].getAttribute('id');
+const scrollMid = window.scrollY + window.innerHeight / 2;
 sections.forEach(sec => {
-  if (window.scrollY >= sec.offsetTop - 85) {
+  if (scrollMid >= sec.offsetTop) {
     current = sec.getAttribute('id');
   }
 });
